@@ -1,0 +1,902 @@
+{
+  "user_aliases": [
+    {
+      "app": "APP-CORE",
+      "local_user": "a.smith",
+      "canonical_user": "USR-01",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "b.jones",
+      "canonical_user": "USR-02",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "edge.operator",
+      "canonical_user": "USR-03",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "tester",
+      "canonical_user": "USR-PT",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0001",
+      "canonical_user": "USR-AUX-0001",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0002",
+      "canonical_user": "USR-AUX-0002",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0003",
+      "canonical_user": "USR-AUX-0003",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0004",
+      "canonical_user": "USR-AUX-0004",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0005",
+      "canonical_user": "USR-AUX-0005",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0006",
+      "canonical_user": "USR-AUX-0006",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0007",
+      "canonical_user": "USR-AUX-0007",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0008",
+      "canonical_user": "USR-AUX-0008",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0009",
+      "canonical_user": "USR-AUX-0009",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0010",
+      "canonical_user": "USR-AUX-0010",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0011",
+      "canonical_user": "USR-AUX-0011",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0012",
+      "canonical_user": "USR-AUX-0012",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0013",
+      "canonical_user": "USR-AUX-0013",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0014",
+      "canonical_user": "USR-AUX-0014",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0015",
+      "canonical_user": "USR-AUX-0015",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0016",
+      "canonical_user": "USR-AUX-0016",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0017",
+      "canonical_user": "USR-AUX-0017",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0018",
+      "canonical_user": "USR-AUX-0018",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0019",
+      "canonical_user": "USR-AUX-0019",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0020",
+      "canonical_user": "USR-AUX-0020",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0021",
+      "canonical_user": "USR-AUX-0021",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0022",
+      "canonical_user": "USR-AUX-0022",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0023",
+      "canonical_user": "USR-AUX-0023",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0024",
+      "canonical_user": "USR-AUX-0024",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0025",
+      "canonical_user": "USR-AUX-0025",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0026",
+      "canonical_user": "USR-AUX-0026",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0027",
+      "canonical_user": "USR-AUX-0027",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0028",
+      "canonical_user": "USR-AUX-0028",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0029",
+      "canonical_user": "USR-AUX-0029",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0030",
+      "canonical_user": "USR-AUX-0030",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0031",
+      "canonical_user": "USR-AUX-0031",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0032",
+      "canonical_user": "USR-AUX-0032",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0033",
+      "canonical_user": "USR-AUX-0033",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0034",
+      "canonical_user": "USR-AUX-0034",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0035",
+      "canonical_user": "USR-AUX-0035",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0036",
+      "canonical_user": "USR-AUX-0036",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0037",
+      "canonical_user": "USR-AUX-0037",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0038",
+      "canonical_user": "USR-AUX-0038",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0039",
+      "canonical_user": "USR-AUX-0039",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0040",
+      "canonical_user": "USR-AUX-0040",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0041",
+      "canonical_user": "USR-AUX-0041",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0042",
+      "canonical_user": "USR-AUX-0042",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0043",
+      "canonical_user": "USR-AUX-0043",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0044",
+      "canonical_user": "USR-AUX-0044",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0045",
+      "canonical_user": "USR-AUX-0045",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0046",
+      "canonical_user": "USR-AUX-0046",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0047",
+      "canonical_user": "USR-AUX-0047",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0048",
+      "canonical_user": "USR-AUX-0048",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0049",
+      "canonical_user": "USR-AUX-0049",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0050",
+      "canonical_user": "USR-AUX-0050",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0051",
+      "canonical_user": "USR-AUX-0051",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0052",
+      "canonical_user": "USR-AUX-0052",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0053",
+      "canonical_user": "USR-AUX-0053",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0054",
+      "canonical_user": "USR-AUX-0054",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0055",
+      "canonical_user": "USR-AUX-0055",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "local_user": "operator-0056",
+      "canonical_user": "USR-AUX-0056",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "local_user": "operator-0057",
+      "canonical_user": "USR-AUX-0057",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "local_user": "operator-0058",
+      "canonical_user": "USR-AUX-0058",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "local_user": "operator-0059",
+      "canonical_user": "USR-AUX-0059",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "local_user": "operator-0060",
+      "canonical_user": "USR-AUX-0060",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    }
+  ],
+  "session_bindings": [
+    {
+      "app": "APP-CORE",
+      "session": "S-RED",
+      "canonical_user": "USR-01",
+      "valid_from": "2026-09-12T01:00:00Z",
+      "valid_to": "2026-09-12T01:10:00Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-PT",
+      "canonical_user": "USR-PT",
+      "valid_from": "2026-09-12T02:00:00Z",
+      "valid_to": "2026-09-12T02:10:00Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-BLU",
+      "canonical_user": "USR-02",
+      "valid_from": "2026-09-12T04:00:00Z",
+      "valid_to": "2026-09-12T04:10:00Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-GRN",
+      "canonical_user": "USR-03",
+      "valid_from": "2026-09-12T05:00:00Z",
+      "valid_to": "2026-09-12T05:10:00Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0001",
+      "canonical_user": "USR-AUX-0001",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0002",
+      "canonical_user": "USR-AUX-0002",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0003",
+      "canonical_user": "USR-AUX-0003",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0004",
+      "canonical_user": "USR-AUX-0004",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0005",
+      "canonical_user": "USR-AUX-0005",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0006",
+      "canonical_user": "USR-AUX-0006",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0007",
+      "canonical_user": "USR-AUX-0007",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0008",
+      "canonical_user": "USR-AUX-0008",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0009",
+      "canonical_user": "USR-AUX-0009",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0010",
+      "canonical_user": "USR-AUX-0010",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0011",
+      "canonical_user": "USR-AUX-0011",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0012",
+      "canonical_user": "USR-AUX-0012",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0013",
+      "canonical_user": "USR-AUX-0013",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0014",
+      "canonical_user": "USR-AUX-0014",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0015",
+      "canonical_user": "USR-AUX-0015",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0016",
+      "canonical_user": "USR-AUX-0016",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0017",
+      "canonical_user": "USR-AUX-0017",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0018",
+      "canonical_user": "USR-AUX-0018",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0019",
+      "canonical_user": "USR-AUX-0019",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0020",
+      "canonical_user": "USR-AUX-0020",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0021",
+      "canonical_user": "USR-AUX-0021",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0022",
+      "canonical_user": "USR-AUX-0022",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0023",
+      "canonical_user": "USR-AUX-0023",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0024",
+      "canonical_user": "USR-AUX-0024",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0025",
+      "canonical_user": "USR-AUX-0025",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0026",
+      "canonical_user": "USR-AUX-0026",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0027",
+      "canonical_user": "USR-AUX-0027",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0028",
+      "canonical_user": "USR-AUX-0028",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0029",
+      "canonical_user": "USR-AUX-0029",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0030",
+      "canonical_user": "USR-AUX-0030",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0031",
+      "canonical_user": "USR-AUX-0031",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0032",
+      "canonical_user": "USR-AUX-0032",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0033",
+      "canonical_user": "USR-AUX-0033",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0034",
+      "canonical_user": "USR-AUX-0034",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0035",
+      "canonical_user": "USR-AUX-0035",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0036",
+      "canonical_user": "USR-AUX-0036",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0037",
+      "canonical_user": "USR-AUX-0037",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0038",
+      "canonical_user": "USR-AUX-0038",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0039",
+      "canonical_user": "USR-AUX-0039",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0040",
+      "canonical_user": "USR-AUX-0040",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0041",
+      "canonical_user": "USR-AUX-0041",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0042",
+      "canonical_user": "USR-AUX-0042",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0043",
+      "canonical_user": "USR-AUX-0043",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0044",
+      "canonical_user": "USR-AUX-0044",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0045",
+      "canonical_user": "USR-AUX-0045",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0046",
+      "canonical_user": "USR-AUX-0046",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0047",
+      "canonical_user": "USR-AUX-0047",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0048",
+      "canonical_user": "USR-AUX-0048",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0049",
+      "canonical_user": "USR-AUX-0049",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0050",
+      "canonical_user": "USR-AUX-0050",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0051",
+      "canonical_user": "USR-AUX-0051",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0052",
+      "canonical_user": "USR-AUX-0052",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0053",
+      "canonical_user": "USR-AUX-0053",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0054",
+      "canonical_user": "USR-AUX-0054",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-AUX-0055",
+      "canonical_user": "USR-AUX-0055",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "session": "S-AUX-0056",
+      "canonical_user": "USR-AUX-0056",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-AUX-0057",
+      "canonical_user": "USR-AUX-0057",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-AUX-0058",
+      "canonical_user": "USR-AUX-0058",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-03",
+      "session": "S-AUX-0059",
+      "canonical_user": "USR-AUX-0059",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-AUX-0060",
+      "canonical_user": "USR-AUX-0060",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    }
+  ]
+}

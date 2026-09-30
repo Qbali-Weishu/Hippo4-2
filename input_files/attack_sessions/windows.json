@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "candidate_id": "C01",
+      "window_start_utc": "2026-09-12T00:59:00Z",
+      "window_end_utc": "2026-09-12T01:06:00Z",
+      "seed_web_id": "W-RED-01",
+      "chain_gap_seconds": "80"
+    },
+    {
+      "candidate_id": "C02",
+      "window_start_utc": "2026-09-12T01:59:00Z",
+      "window_end_utc": "2026-09-12T02:06:00Z",
+      "seed_web_id": "W-PT-01",
+      "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C03",
+      "window_start_utc": "2026-09-12T03:09:00Z",
+      "window_end_utc": "2026-09-12T03:12:00Z",
+      "seed_web_id": "W-MON-01",
+      "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C04",
+      "window_start_utc": "2026-09-12T03:59:00Z",
+      "window_end_utc": "2026-09-12T04:05:00Z",
+      "seed_web_id": "W-BLU-01",
+      "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C05",
+      "window_start_utc": "2026-09-12T04:30:00Z",
+      "window_end_utc": "2026-09-12T04:40:00Z",
+      "seed_web_id": "W-MISSING",
+      "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C06",
+      "window_start_utc": "2026-09-12T04:59:00Z",
+      "window_end_utc": "2026-09-12T05:06:00Z",
+      "seed_web_id": "W-GRN-01",
+      "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C07",
+      "window_start_utc": "2026-09-12T01:00:00Z",
+      "window_end_utc": "2026-09-12T01:06:00Z",
+      "seed_web_id": "W-RED-02",
+      "chain_gap_seconds": "180"
+    }
+  ]
+}

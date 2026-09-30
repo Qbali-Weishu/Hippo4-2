@@ -1,0 +1,5 @@
+pattern,kind,time_basis,join_key
+webapp_access/events.jsonl,web,Asia/Shanghai,app+request_id/session
+api_auth/events.jsonl,auth,UTC,app+session
+app_sql_query/events.jsonl,sql,UTC epoch ms,app+request_id
+cdn_logs/events.jsonl,cdn,Asia/Shanghai minus policy clock correction,app+request_id

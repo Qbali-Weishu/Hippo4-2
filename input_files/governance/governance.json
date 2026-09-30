@@ -1,0 +1,490 @@
+{
+  "application_inventory": [
+    {
+      "app": "APP-CORE",
+      "criticality": "critical",
+      "business_state": "active",
+      "change_freeze": "true",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-EDGE",
+      "criticality": "high",
+      "business_state": "deprecated",
+      "change_freeze": "false",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "criticality": "high",
+      "business_state": "active",
+      "change_freeze": "false",
+      "log_state": "partial"
+    },
+    {
+      "app": "APP-AUX-01",
+      "criticality": "medium",
+      "business_state": "active",
+      "change_freeze": "false",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-AUX-02",
+      "criticality": "low",
+      "business_state": "active",
+      "change_freeze": "false",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-AUX-03",
+      "criticality": "medium",
+      "business_state": "deprecated",
+      "change_freeze": "false",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-AUX-04",
+      "criticality": "low",
+      "business_state": "active",
+      "change_freeze": "false",
+      "log_state": "partial"
+    },
+    {
+      "app": "APP-AUX-05",
+      "criticality": "medium",
+      "business_state": "active",
+      "change_freeze": "false",
+      "log_state": "complete"
+    },
+    {
+      "app": "APP-AUX-06",
+      "criticality": "low",
+      "business_state": "deprecated",
+      "change_freeze": "false",
+      "log_state": "complete"
+    }
+  ],
+  "approved_changes": [
+    {
+      "change_id": "PT-77",
+      "start_utc": "2026-09-12T01:59:00Z",
+      "end_utc": "2026-09-12T02:05:00Z",
+      "source_ref": "src-test",
+      "app": "APP-CORE",
+      "canonical_user": "USR-PT",
+      "path_prefix": "/security-test/",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0001",
+      "start_utc": "2026-09-10T00:02:00.000Z",
+      "end_utc": "2026-09-10T00:12:00.000Z",
+      "source_ref": "src-noise-0001",
+      "app": "APP-EDGE",
+      "canonical_user": "USR-AUX-0001",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0002",
+      "start_utc": "2026-09-10T00:04:00.000Z",
+      "end_utc": "2026-09-10T00:14:00.000Z",
+      "source_ref": "src-noise-0002",
+      "app": "APP-PARTIAL",
+      "canonical_user": "USR-AUX-0002",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0003",
+      "start_utc": "2026-09-10T00:06:00.000Z",
+      "end_utc": "2026-09-10T00:16:00.000Z",
+      "source_ref": "src-noise-0003",
+      "app": "APP-AUX-01",
+      "canonical_user": "USR-AUX-0003",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0004",
+      "start_utc": "2026-09-10T00:08:00.000Z",
+      "end_utc": "2026-09-10T00:18:00.000Z",
+      "source_ref": "src-noise-0004",
+      "app": "APP-AUX-02",
+      "canonical_user": "USR-AUX-0004",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0005",
+      "start_utc": "2026-09-10T00:10:00.000Z",
+      "end_utc": "2026-09-10T00:20:00.000Z",
+      "source_ref": "src-noise-0005",
+      "app": "APP-AUX-03",
+      "canonical_user": "USR-AUX-0005",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0006",
+      "start_utc": "2026-09-10T00:12:00.000Z",
+      "end_utc": "2026-09-10T00:22:00.000Z",
+      "source_ref": "src-noise-0006",
+      "app": "APP-CORE",
+      "canonical_user": "USR-AUX-0006",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "revoked"
+    },
+    {
+      "change_id": "PT-AUX-0007",
+      "start_utc": "2026-09-10T00:14:00.000Z",
+      "end_utc": "2026-09-10T00:24:00.000Z",
+      "source_ref": "src-noise-0007",
+      "app": "APP-EDGE",
+      "canonical_user": "USR-AUX-0007",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0008",
+      "start_utc": "2026-09-10T00:16:00.000Z",
+      "end_utc": "2026-09-10T00:26:00.000Z",
+      "source_ref": "src-noise-0008",
+      "app": "APP-PARTIAL",
+      "canonical_user": "USR-AUX-0008",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0009",
+      "start_utc": "2026-09-10T00:18:00.000Z",
+      "end_utc": "2026-09-10T00:28:00.000Z",
+      "source_ref": "src-noise-0009",
+      "app": "APP-AUX-01",
+      "canonical_user": "USR-AUX-0009",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0010",
+      "start_utc": "2026-09-10T00:20:00.000Z",
+      "end_utc": "2026-09-10T00:30:00.000Z",
+      "source_ref": "src-noise-0010",
+      "app": "APP-AUX-02",
+      "canonical_user": "USR-AUX-0010",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0011",
+      "start_utc": "2026-09-10T00:22:00.000Z",
+      "end_utc": "2026-09-10T00:32:00.000Z",
+      "source_ref": "src-noise-0011",
+      "app": "APP-AUX-03",
+      "canonical_user": "USR-AUX-0011",
+      "path_prefix": "/health",
+      "activity_types": "recon,exploit,data",
+      "status": "approved"
+    },
+    {
+      "change_id": "PT-AUX-0012",
+      "start_utc": "2026-09-10T00:24:00.000Z",
+      "end_utc": "2026-09-10T00:34:00.000Z",
+      "source_ref": "src-noise-0012",
+      "app": "APP-CORE",
+      "canonical_user": "USR-AUX-0012",
+      "path_prefix": "/api/test/",
+      "activity_types": "recon,exploit,data",
+      "status": "revoked"
+    }
+  ],
+  "coverage": [
+    {
+      "app": "APP-PARTIAL",
+      "source": "web",
+      "start_utc": "2026-09-12T04:00:30Z",
+      "end_utc": "2026-09-12T04:04:00Z",
+      "state": "partial"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "source": "cdn",
+      "start_utc": "2026-09-12T03:59:00Z",
+      "end_utc": "2026-09-12T04:05:00Z",
+      "state": "partial"
+    },
+    {
+      "app": "APP-EDGE",
+      "source": "web",
+      "start_utc": "2026-09-10T00:01:00.000Z",
+      "end_utc": "2026-09-10T00:46:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:02:00.000Z",
+      "end_utc": "2026-09-10T00:47:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-01",
+      "source": "web",
+      "start_utc": "2026-09-10T00:03:00.000Z",
+      "end_utc": "2026-09-10T00:48:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-02",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:04:00.000Z",
+      "end_utc": "2026-09-10T00:49:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-03",
+      "source": "web",
+      "start_utc": "2026-09-10T00:05:00.000Z",
+      "end_utc": "2026-09-10T00:50:00.000Z",
+      "state": "partial"
+    },
+    {
+      "app": "APP-CORE",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:06:00.000Z",
+      "end_utc": "2026-09-10T00:51:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-EDGE",
+      "source": "web",
+      "start_utc": "2026-09-10T00:07:00.000Z",
+      "end_utc": "2026-09-10T00:52:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:08:00.000Z",
+      "end_utc": "2026-09-10T00:53:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-01",
+      "source": "web",
+      "start_utc": "2026-09-10T00:09:00.000Z",
+      "end_utc": "2026-09-10T00:54:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-02",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:10:00.000Z",
+      "end_utc": "2026-09-10T00:55:00.000Z",
+      "state": "partial"
+    },
+    {
+      "app": "APP-AUX-03",
+      "source": "web",
+      "start_utc": "2026-09-10T00:11:00.000Z",
+      "end_utc": "2026-09-10T00:56:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-CORE",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:12:00.000Z",
+      "end_utc": "2026-09-10T00:57:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-EDGE",
+      "source": "web",
+      "start_utc": "2026-09-10T00:13:00.000Z",
+      "end_utc": "2026-09-10T00:58:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-PARTIAL",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:14:00.000Z",
+      "end_utc": "2026-09-10T00:59:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-01",
+      "source": "web",
+      "start_utc": "2026-09-10T00:15:00.000Z",
+      "end_utc": "2026-09-10T01:00:00.000Z",
+      "state": "partial"
+    },
+    {
+      "app": "APP-AUX-02",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:16:00.000Z",
+      "end_utc": "2026-09-10T01:01:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-AUX-03",
+      "source": "web",
+      "start_utc": "2026-09-10T00:17:00.000Z",
+      "end_utc": "2026-09-10T01:02:00.000Z",
+      "state": "complete"
+    },
+    {
+      "app": "APP-CORE",
+      "source": "cdn",
+      "start_utc": "2026-09-10T00:18:00.000Z",
+      "end_utc": "2026-09-10T01:03:00.000Z",
+      "state": "complete"
+    }
+  ],
+  "response_policy": [
+    {
+      "condition": "confirmed+frozen+dual_evidence",
+      "action": "scoped-block",
+      "must_preserve": "logs,db evidence,session lineage"
+    },
+    {
+      "condition": "confirmed+not_frozen",
+      "action": "contain",
+      "must_preserve": "logs,session lineage"
+    },
+    {
+      "condition": "authorized",
+      "action": "observe",
+      "must_preserve": "test evidence"
+    },
+    {
+      "condition": "unresolved_or_partial",
+      "action": "hold-investigate",
+      "must_preserve": "current controls and evidence"
+    }
+  ],
+  "security_tools": [
+    {
+      "source_ref": "src-monitor",
+      "app": "APP-CORE",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-health",
+      "reason": "availability probe"
+    },
+    {
+      "source_ref": "src-noise-0001",
+      "app": "APP-EDGE",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0002",
+      "app": "APP-PARTIAL",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0003",
+      "app": "APP-AUX-01",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0004",
+      "app": "APP-AUX-02",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0005",
+      "app": "APP-AUX-03",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0006",
+      "app": "APP-CORE",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0007",
+      "app": "APP-EDGE",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0008",
+      "app": "APP-PARTIAL",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0009",
+      "app": "APP-AUX-01",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0010",
+      "app": "APP-AUX-02",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0011",
+      "app": "APP-AUX-03",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0012",
+      "app": "APP-CORE",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0013",
+      "app": "APP-EDGE",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    },
+    {
+      "source_ref": "src-noise-0014",
+      "app": "APP-PARTIAL",
+      "path_prefix": "/metrics",
+      "user_agent_prefix": "ua-crawler",
+      "reason": "inventory crawler"
+    },
+    {
+      "source_ref": "src-noise-0015",
+      "app": "APP-AUX-01",
+      "path_prefix": "/health",
+      "user_agent_prefix": "ua-monitor",
+      "reason": "synthetic monitoring"
+    }
+  ]
+}
