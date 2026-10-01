@@ -45,9 +45,72 @@
     {
       "candidate_id": "C07",
       "window_start_utc": "2026-09-12T01:00:00Z",
-      "window_end_utc": "2026-09-12T01:06:00Z",
+      "window_end_utc": "2026-09-12T01:01:10Z",
       "seed_web_id": "W-RED-02",
       "chain_gap_seconds": "180"
+    },
+    {
+      "candidate_id": "C08",
+      "window_start_utc": "2026-09-12T05:59:59Z",
+      "window_end_utc": "2026-09-12T06:01:00Z",
+      "seed_web_id": "W-CMP-01",
+      "chain_gap_seconds": "60"
+    },
+    {
+      "candidate_id": "C09",
+      "window_start_utc": "2026-09-12T06:00:29Z",
+      "window_end_utc": "2026-09-12T06:00:45Z",
+      "seed_web_id": "W-CMP-02",
+      "chain_gap_seconds": "15"
+    },
+    {
+      "candidate_id": "C10",
+      "window_start_utc": "2026-09-12T06:00:19Z",
+      "window_end_utc": "2026-09-12T06:00:45Z",
+      "seed_web_id": "W-CMP-03",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "K-17",
+      "window_start_utc": "2026-09-12T07:59:59Z",
+      "window_end_utc": "2026-09-12T08:00:35Z",
+      "seed_web_id": "e-k17-r",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "K-23",
+      "window_start_utc": "2026-09-12T08:19:59Z",
+      "window_end_utc": "2026-09-12T08:20:35Z",
+      "seed_web_id": "e-k23-r",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "K-31",
+      "window_start_utc": "2026-09-12T08:39:59Z",
+      "window_end_utc": "2026-09-12T08:40:35Z",
+      "seed_web_id": "e-k31-r",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "K-44",
+      "window_start_utc": "2026-09-12T08:59:59Z",
+      "window_end_utc": "2026-09-12T09:00:35Z",
+      "seed_web_id": "e-k44-r",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "C11",
+      "window_start_utc": "2026-09-12T06:00:30Z",
+      "window_end_utc": "2026-09-12T06:01:16Z",
+      "seed_web_id": "W-CMP-04",
+      "chain_gap_seconds": "20"
+    },
+    {
+      "candidate_id": "C12",
+      "window_start_utc": "2026-09-12T06:00:32Z",
+      "window_end_utc": "2026-09-12T06:01:18Z",
+      "seed_web_id": "W-CMP-05",
+      "chain_gap_seconds": "20"
     }
   ]
 }

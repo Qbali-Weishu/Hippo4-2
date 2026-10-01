@@ -1,16 +1,14 @@
 #!/usr/bin/env node
 'use strict';
 
-const {parseArguments} = require('./lib/cli');
-const {loadBundle} = require('./lib/input');
-const {replay} = require('./lib/replay');
-const {writeDeliverables} = require('./lib/output');
+const args = process.argv.slice(2);
+const inputIndex = args.indexOf('--input-dir');
+const outputIndex = args.indexOf('--output');
 
-try {
-  const args = parseArguments(process.argv);
-  const bundle = loadBundle(args.inputDir);
-  writeDeliverables(args.outputFile, replay(bundle));
-} catch (error) {
-  console.error(error.message);
+if (inputIndex < 0 || outputIndex < 0 || !args[inputIndex + 1] || !args[outputIndex + 1]) {
+  console.error('Usage: node replay_engine.js --input-dir <directory> --output <file>');
+  process.exitCode = 2;
+} else {
+  console.error('The replay prototype is incomplete.');
   process.exitCode = 1;
 }

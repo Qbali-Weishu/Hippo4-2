@@ -1,6 +1,13 @@
 {
   "user_aliases": [
     {
+      "app": "APP-EDGE",
+      "local_user": "case.operator",
+      "canonical_user": "USR-COMP",
+      "valid_from": "2026-09-12T06:00:00Z",
+      "valid_to": "2026-09-12T06:02:00Z"
+    },
+    {
       "app": "APP-CORE",
       "local_user": "a.smith",
       "canonical_user": "USR-01",
@@ -447,9 +454,30 @@
       "canonical_user": "USR-AUX-0060",
       "valid_from": "2026-01-01T00:00:00Z",
       "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0025",
+      "canonical_user": "USR-AMBIG-A",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "local_user": "operator-0025",
+      "canonical_user": "USR-AUX-0025",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_to": "2026-12-31T23:59:59Z"
     }
   ],
   "session_bindings": [
+    {
+      "app": "APP-EDGE",
+      "session": "S-COMP",
+      "canonical_user": "USR-COMP",
+      "valid_from": "2026-09-12T06:00:00Z",
+      "valid_to": "2026-09-12T06:02:00Z"
+    },
     {
       "app": "APP-CORE",
       "session": "S-RED",
@@ -895,6 +923,34 @@
       "app": "APP-CORE",
       "session": "S-AUX-0060",
       "canonical_user": "USR-AUX-0060",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-01",
+      "session": "S-N17",
+      "canonical_user": "USR-AUX-0021",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-AUX-02",
+      "session": "S-N23",
+      "canonical_user": "USR-AUX-0022",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-CORE",
+      "session": "S-N31",
+      "canonical_user": "USR-AUX-0024",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-09-30T23:59:59Z"
+    },
+    {
+      "app": "APP-EDGE",
+      "session": "S-N44",
+      "canonical_user": "USR-AUX-0025",
       "valid_from": "2026-09-01T00:00:00Z",
       "valid_to": "2026-09-30T23:59:59Z"
     }
