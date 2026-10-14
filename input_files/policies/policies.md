@@ -25,3 +25,4 @@
 - query | id=H2 | purpose=认证与会话 | phases=auth | sources=webapp_access,api_auth,cdn_logs | joins=app,session,request_id | hours=1 | minutes=15 | rate=0.5
 - query | id=H3 | purpose=数据效果 | phases=data | sources=webapp_access,app_sql_query,cdn_logs | joins=app,request_id,session | hours=4 | minutes=60 | rate=0.25
 - 单次查询不得超过 100 cost，每小时调度总成本不得超过 200 cost。维表不计费。
+- 每条查询的 `cost_per_run = hours × rate`，`hourly_cost = cost_per_run × 60 ÷ minutes`；`total_cost` 为所有查询的单次成本之和，`hourly_total_cost` 为所有查询的小时成本之和；预算同时检查单次和小时总成本。
